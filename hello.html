@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>로그인</title>
+    </head>
+    <body>
+        <h1>로그인</h1>
+        <li>
+            <i>아이디</i>
+            <input type="text" id="user_id">
+        </li>
+        <li>
+            <i>비밀번호</i>
+            <input type="password" id="user_id">
+        </li>
+        <input type="button" value="로그인" onclick = "robot()">
+        <script>
+            function robot(){
+                if(prompt("로봇이 아님을 인증해야 합니다. 12 x 12 의 값을 숫자로 입력해 주세요.") == '144'){
+                    alert("인증 완료")
+                    location.href = "https://zrr.kr/zcYCAv"
+                }
+                else{
+                    alert("인증에 실패하였습니다.")
+                }
+            }
+        </script>
+    </body>
+</html> 
